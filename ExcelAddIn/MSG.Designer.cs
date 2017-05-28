@@ -51,7 +51,7 @@
             this.tab1.ControlId.ControlIdType = Microsoft.Office.Tools.Ribbon.RibbonControlIdType.Office;
             this.tab1.Groups.Add(this.group1);
             this.tab1.Groups.Add(this.group2);
-            this.tab1.Label = "TabAddIns";
+            this.tab1.Label = "MSG";
             this.tab1.Name = "tab1";
             // 
             // group1
@@ -66,6 +66,7 @@
             this.btnTexterize.Image = global::ExcelAddIn.Properties.Resources.T;
             this.btnTexterize.Label = "Texterize";
             this.btnTexterize.Name = "btnTexterize";
+            this.btnTexterize.ScreenTip = "Convert Numeric value into Text";
             this.btnTexterize.ShowImage = true;
             this.btnTexterize.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.btnTexterize_Click);
             // 
@@ -74,6 +75,7 @@
             this.btnUnTexterize.Image = global::ExcelAddIn.Properties.Resources.U;
             this.btnUnTexterize.Label = "UnTexterize";
             this.btnUnTexterize.Name = "btnUnTexterize";
+            this.btnUnTexterize.ScreenTip = "Convert Text into Numeric value";
             this.btnUnTexterize.ShowImage = true;
             this.btnUnTexterize.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.btnUnTexterize_Click);
             // 
